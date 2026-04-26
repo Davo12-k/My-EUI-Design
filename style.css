@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+:root {
+    --mainFont:"DM Sans", sans-serif;
+    --montserrat: "Montserrat", sans-serif;
+    --whiteText: #FFFFFF;
+    --heroBg: #057ACB;
+    --headerBg: #FFFFFF14;
+    --headerButtonColor: #1875F0;
+    --offWhite : #DFE0E5;
+    --gray : #FFFFFF33;
+   
+
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 7092px;
+
+}
+
+main {
+    height: calc(7092px-434px);
+    width: 100%;
+}
+
+
+#hero {
+    height: 891px;
+    width: 100%;
+    background-color: var(--heroBg);
+    padding: 0  6.25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 6rem;
+   
+}
+
+header {
+    height: 69.08px;
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 40px;
+    border: 1px solid var(--headerBg);
+    padding: 10px 16px;
+    position: fixed;
+    top: 20px;
+    opacity: 1; 
+    background-color: var(--headerBg)
+   
+
+}
+
+nav ul {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    font-family: var(--mainFont);
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--whiteText);
+}
+
+nav ul li a {
+text-decoration: none;
+font-family: var(--mainFont);
+font-weight: 500;
+font-style: Medium;
+font-size: 0.9rem;
+line-height: 100%;
+letter-spacing: -3%;
+color:var(--whiteText) ;
+
+
+}
+
+header button{
+width: 145px;
+height: 48px;
+
+opacity: 1;
+border-radius: 3rem;
+padding: 8px 16px;
+border: none;
+background-color: var(--headerButtonColor);
+font-family: var(--mainFont);
+font-weight: 700;
+font-style: Bold;
+font-size: 14px;
+line-height: 100%;
+letter-spacing: -4%;
+text-align: center;
+color: var(--whiteText);
+
+
+
+}
+
+.hero-main {
+    height: 360px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding: 2.5rem 12rem;
+    position: relative;
+   
+    
+}
+
+.hero-main h1 {
+font-family:var(--mainFont);
+font-weight: 500;
+font-style: Medium;
+font-size: 4rem;
+line-height: 110.00000000000001%;
+letter-spacing: -4%;
+text-align: center;
+color: var(--whiteText);
+
+
+}
+
+.hero-main p {
+font-family:var(--mainFont);
+font-weight: 500;
+font-style: Medium;
+font-size: 18px;
+line-height: 160%;
+letter-spacing: -3%;
+text-align: center;
+color: var(--offWhite);
+
+
+} 
+
+.hero-btn {
+    display: flex;
+    gap: 1rem;
+}
+
+.hero-btn button:first-child {
+    width: 160px;
+    height: 42px;
+    background-color:var(--whiteText);
+    border: none;
+    border-radius: 3rem;
+    padding: 14px 20px;
+    font-family: DM Sans;
+   font-weight: 700;
+  font-style: Bold;
+  font-size: 0.9rem;
+  line-height: 100%;
+  letter-spacing: -4%;
+  text-align: center;
+  color: var(--heroBg);
+}
+
+.hero-btn button:last-child {
+width: 152px;
+height: 42px;
+opacity: 1;
+border-width: 1px;
+border-radius: 48px;
+padding: 14px 20px;
+background-color: var(--gray);
+border: 1px solid var(--gray);
+font-family: DM Sans;
+font-weight: 700;
+font-style: Bold;
+font-size: 0.9rem;
+line-height: 100%;
+letter-spacing: -4%;
+text-align: center;
+color: var(--offWhite);
+
+}
+
+.hero-circle img {
+/* width: 451px;
+height: 115px; */
+border-radius: 1px;
+border-width: 2.2px;
+opacity: 1;
+position: absolute;
+top: 0;
+left: 25;
+}
+
+
+
+.testimonials {
+width: 100%;
+height: 125px;
+border-radius: 40px;
+border-width: 1px;
+opacity: 1;
+gap: 70px;
+background: linear-gradient(90deg, rgba(15, 97, 206, 0.7) 0%, rgba(11, 81, 148, 0.7) 100%);
+border: 1px solid var(--whiteText);
+display: flex;
+padding: 1.4rem 4rem;
+justify-content: center;
+
+}
+
+.testimonials-item {
+    flex: 1;
+    
+}
+
+.testimonials-item h3 {
+font-family:var(--mainFont);
+font-weight: 500;
+font-style: Medium;
+font-size: 50px;
+
+line-height: 110.00000000000001%;
+letter-spacing: -2%;
+text-align: center;
+color: var(--whiteText);
+
+}
+
+
+.testimonials-item p {
+font-family:var(--mainFont);
+font-weight: 400;
+font-style: Regular;
+font-size: 20px;
+line-height: 110.00000000000001%;
+letter-spacing: -2%;
+text-align: center;
+color: var(--offWhite);
+
+}
