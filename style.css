@@ -14,6 +14,8 @@
     --headerButtonColor: #1875F0;
     --offWhite : #DFE0E5;
     --gray : #FFFFFF33;
+    --theblack: #060807;
+    --lightGray:#808080;
    
 
 
@@ -245,5 +247,161 @@ line-height: 110.00000000000001%;
 letter-spacing: -2%;
 text-align: center;
 color: var(--offWhite);
+
+}
+
+.social {
+  width: 100%;
+  height: 195px;
+  opacity: 1;
+  background-color: var(--theblack);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.social-item {
+  display: flex;
+  gap: 5rem;
+  
+
+}
+
+.social img {
+  width: 120px;
+  height: 36.234375px;
+  top: 121px;
+  left: 350px;
+  opacity: 1;
+  mix-blend-mode: Luminosity;
+  padding-bottom: 15px;
+}
+.text {
+  font-family: var(--MainFont);
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  margin-bottom: 30px;
+  color: var(--lightGray);
+}
+  
+#hero3 div {
+  width: 100%;
+height: 957px;
+opacity: 1;
+background-color:var(--headerBg);
+
+}
+
+#hero3 div .who {
+  width: 100%;
+height: 255px;
+gap: 16px;
+opacity: 1;
+background-color:var(--whiteText);
+padding-top: 70px;
+
+}
+
+.who {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.who h1 {
+  font-family: var(--mainFont);
+font-weight: 500;
+font-style: Medium;
+font-size: 36px;
+line-height: 100%;
+letter-spacing: -3%;
+
+
+}
+
+.who p {
+  font-family: var(--mainFont);
+font-weight: 400;
+font-style: Regular;
+font-size: 18px;
+line-height: 160%;
+letter-spacing: -2%;
+text-align: center;
+padding: 0 160px ;
+color: var(--lightGray);
+}
+.who button {
+width: 219px;
+height: 42px;
+gap: 8px;
+opacity: 1;
+border-radius: 48px;
+border-width: 1px;
+padding: 14px 20px;
+border: 1px solid var(--gray);
+backdrop-filter: blur(4px);
+background-color: var(--heroBg);
+color:var(--offWhite);
+border: none
+;
+
+
+}
+
+#hero3 .who-items {
+width: 100%;
+height: 563px;
+gap: 25px;
+opacity: 1;
+display: flex;
+margin-top: 20px;
+margin-left: 60px;
+
+
+padding-top: 0px;
+}
+
+.who-items-box1, .who-items-box2{
+  flex: 1;
+}
+
+
+.who-items-box1{
+  display: flex;
+  flex-direction: column;
+  gap: 37px;
+}
+
+
+.who-items .img1 {
+  width: 623px;
+height: 222.00000000000014px;
+opacity: 1;
+border-radius: 10px;
+padding-left: 50px;
+
+}
+
+.who-items .img2 {
+  width: 623px;
+height: 285.0000000000000px;
+opacity: 1;
+border-radius: 10px;
+padding-left: 50px;
+
+}
+
+.who-items .img3 {
+  width: 432px;
+height: 548px;
+opacity: 1;
+border-radius: 10px;
+
+
 
 }
